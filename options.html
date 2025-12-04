@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Clean My Web - Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Clean My Web</h1>
+      <p>Gérez vos sites nettoyés et vos préférences.</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <div class="card-header">
+          <h2>Sites Nettoyés</h2>
+          <button id="resetAllBtn" class="btn-danger">Tout Réinitialiser</button>
+        </div>
+        <div id="sitesList" class="sites-list">
+          <!-- Sites will be injected here -->
+          <div class="empty-state">Aucun site nettoyé pour le moment.</div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>Clean My Web</h2>
+
+  <div class="card">
+    <button id="editModeBtn" class="btn-primary">
+      <span>✏️</span> Mode Édition
+    </button>
+    <div id="statusMsg" class="status">Cliquez pour nettoyer la page</div>
+  </div>
+
+  <div class="card">
+    <button id="toggleCleaningBtn" class="btn-secondary">
+      <span>👁️</span> Voir éléments masqués
+    </button>
+    <button id="beforeAfterBtn" class="btn-secondary">
+      <span>🔄</span> Mode Avant/Après
+    </button>
+    <button id="resetSiteBtn" class="btn-danger">
+      <span>🗑️</span> Reset pour ce site
+    </button>
+    <button id="openOptionsBtn" class="btn-secondary">
+      <span>⚙️</span> Gérer tous les sites
+    </button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
